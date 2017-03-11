@@ -33,7 +33,7 @@ int main()
         d[j] = ((SPFLOAT)(h-i)/(h-1.0) - 1) *2;
     }
   }
-  struct Spa spa = { 100, 1, w, 48000 };
+  struct Spa spa = { 100, 1, 48000, w };
   fwrite(&spa, sizeof(spa), 1, stdout);
   for(i = 0; i < w; i++)
     fwrite(d, sizeof(SPFLOAT), w, stdout);

@@ -13,7 +13,7 @@ dependencies
 ------------
 
 only the [soundpipe](https://github.com/PaulBatchelor/Soundpipe) header is needed to compile.  
-however, this program migth be useless without [the former](http://github.com/PaulBatchelor/Soundpipe) and [farbfeld] (http://tools.suckless.org/farbfeld/)
+however, this program migth be useless without [the former](http://github.com/PaulBatchelor/Soundpipe) and [farbfeld](http://tools.suckless.org/farbfeld/)
 
 build
 -----
